@@ -42,15 +42,14 @@ function App(){
             </Routes>
 
             <Routes>
-                <Route path="/post/:id/:name" element={<Post/>}/>
-                <Route path="/post" element={<Post/>}/>
-                <Route path="/post/:id" element={<Post/>}/>
+                {/* <Route path="/post/:id/:name" element={<Post/>}/> */}
+                <Route path="/post/*" element={<Post/>}/>
 
             </Routes>
-        <Card>
+        {/* <Card>
             <NavLink activeClassName = "active-btn" to="/">HOME</NavLink>
             <NavLink activeClassName = " active-btn" to="/about">ABOUT</NavLink>
-        </Card> 
+        </Card>  */}
             
         </Router>
     </FeedbackProvider>

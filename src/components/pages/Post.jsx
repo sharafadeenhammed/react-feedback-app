@@ -1,4 +1,4 @@
-import {useParams,Navigate,useNavigate,Router,Routes,Route} from "react-router-dom"
+import {useParams,Navigate,useNavigate,Routes,Route} from "react-router-dom"
 
 function Post() {
    let params = useParams();
@@ -18,11 +18,11 @@ function Post() {
 
             <p><button className="active-btn" onClick={Click}>Click</button></p>
         </div>
-            {/* <Routes>
+            <Routes>
             <Route path="/show" element=
                 {<h1>this is the show.</h1>}/>
             </Routes>
-     */}
+    
    </>
    )
 }
